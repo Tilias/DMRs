@@ -109,7 +109,7 @@ perm.reg <- function(data, cutoff = 0.25, bandwidth, cg = 5, name1 = "XX", name2
   
   ### Leaving only those permutation in which: 
   ### 1. samples of different groups are mixed 
-  ### 2. groups have imbalanced number of group1 and group2 samples  
+  ### 2. groups have balanced number of group1 and group2 samples  
   
   coef_uniq <- NULL
   coef_equal <- NULL
